@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    }
+
+:root{
+    --cor1:rgb(255, 255, 255);
+    --cor2: #7780FF;
+    --cor3: #05083B;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    margin-bottom: -17px;
+}
+
+p.ufa{
+    background-color: var(--cor2);
+    color: white;
+    padding: 8px 65px;
+}
+
+p.ufa{
+    text-align: center;
+    list-style: none;
+    font-family: Segoe UI Bold,sans-serif;
+    font-size: 1.5em;
+    color: var(--cor3);
+}
+
+div.primeiro{
+    padding-top: 4px;
+    background-color: var(--cor3);
+    color: white;
+    padding-bottom: 12px;
+}
+
+div.primeiro > h1{
+    text-align: center;
+    padding-top: 25px;
+    font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
+    font-size: clamp(0.1em, 1em + 4vw, 3.4em)
+
+}
+
+div.primeiro > p{
+    margin: auto;
+    padding-top: 3px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: Segoe UI Regular, Arial, Helvetica, sans-serif;
+    font-size: clamp(0.3em, 0.2em + 2vw, 1.2em)
+}
+
+
+p.botton > a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Segoe UI Bold,
+    Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    padding: 10px 60px;
+    font-size: 1.0em;
+}
+
+p.botton > a:hover{
+    background-color: #848cff;
+}
+
+div.segundo > h1{
+    font-size: 1.0em;
+    font-family: Segoe UI Bold, Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 66px;
+    margin-top: 0px;
+    color: var(--cor3);
+}
+
+div.segundo > div{
+    background-color: #7780FF;
+    color: #7780FF;
+    margin-top: 38px;
+    margin-bottom: 0px;
+    margin-left: 66px;
+    height: 3px;
+    margin-right: 66px;
+}
+
+div.segundoB > div{
+    background-color: #7780FF;
+    color: #7780FF;
+    margin-top: 38px;
+    margin-bottom: 30px;
+    margin-left: 66px;
+    height: 5px;
+    margin-right: 66px;
+}
+
+div.card{
+    margin-left: 66px;
+    margin-top: 26px;
+    display: inline-block;
+    border: 0;
+}
+
+div.card>div.card-body>a.btn-primary{
+    background-color: #7780FF;
+    border: 0;
+}
+
+div.frase{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    background-color: var(--cor3);
+    color: white;
+    padding: 32px 40px;
+}
+
+div.frase > p{
+    text-align: center;
+    font-size: clamp(0.1em, 0.18em + 2vw, 1em);
+}
+
+div.frase > p.bbw{
+    text-align: center;
+    font-size: clamp(0.1em, 0.18em + 2vw, 1em);
+    margin-top: 3px;
+}
+
+div.frase >p.frds{
+    text-align: center;
+    font-size: clamp(0.1em, 0.18em + 2vw, 1em);
+    margin-bottom: 3px;
+}
+
+div.frase > h1{
+    font-size: clamp(0.4em, 0.6em + 2vw, 1.8em);
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.frase > p.atleta{
+    font-size: 0.9em;
+    color: #d3d3d3;
+    margin-top: -15px;
+    margin-bottom: 2px;
+}
+
+div.chamada > h1{
+    font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+div.chamada > p{
+    text-align: center;
+    font-family: Segoe UI Regular, Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+}
+
+form.captura{
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+div.cap1{
+    display: inline;
+    font-size: 1em;
+}
+
+div.cap2{
+    display: inline;
+    font-size: 1em;
+}
+
+input.inpit{
+    margin-top: 18px;
+    margin-bottom: 48px;
+    background-color: #7780FF;
+    border-radius: 10px;
+    color: white;
+    font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
+    padding: 3px 80px;
+    font-size: 1.2em;
+}
+
+input.inpit:hover{
+    background-color: #848cff;
+}
+
+footer{
+    background-color: #05083B;
+    color: #ffffff;
+}
+
+div.dire{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    background-color: #05083B;
+    color: #ffffff;
+}
+
+footer>img{
+    width: 25%;
+    max-width: 230px;
+    min-width: 160px;
+    min-width: none;
+    display: block;
+    margin: auto;
+    padding-top: 55px;
+}
+
+div.checkbox{
+    display: inline-block;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #05083B;
+
+}
+div.checkbox>label.sep{
+    padding: 10px 10px;
+    color: #05083B;
+}
+
+
+
+
+

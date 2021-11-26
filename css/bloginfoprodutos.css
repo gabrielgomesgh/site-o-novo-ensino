@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    }
+
+:root{
+    --cor1:rgb(255, 255, 255);
+    --cor2: #656ddd;
+    --cor3: #050836;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+p.ufa{
+    background-color: var(--cor2);
+    color: white;
+    padding: 8px 65px;
+    text-align: center;
+    list-style: none;
+    font-family: Segoe UI Bold,sans-serif;
+    font-size: 1.5em;
+    color: var(--cor3);
+}
+
+div.primeiro{
+    padding-top: 130px;
+    background-color: var(--cor3);
+    color: white;
+    padding-bottom: 12px;
+}
+
+div.primeiro > h1{
+    max-width: 800px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 20px;
+    margin-bottom: 32px;
+    font-family: Segoe UI Bold, Arial, Helvetica, sans-serif;
+    font-size: clamp(0.1em, 0.8em + 4vw, 3.2em)
+}
+
+
+p.botton > a{
+    margin-left: 57px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Segoe UI Bold,
+    Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: var(--cor2);
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 1.0em;
+}
+
+p.botton > a:hover{
+    background-color: #848cff;
+}
+
+footer{
+    background-color: #05083B;
+    color: #ffffff;
+}
+
+div.dire{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    background-color: #05083B;
+    color: #ffffff;
+}
+
+footer>img{
+    width: 25%;
+    max-width: 230px;
+    min-width: 160px;
+    min-width: none;
+    display: block;
+    margin: auto;
+    padding-top: 55px;
+}
+
+main.texto>img{
+    max-width: 500px;
+    
+}
+
+
+main.texto{
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: clamp(0.2em, 0.18em + 2vw, 1.2em);;
+}
+
+main.texto{
+    display: block;
+    padding: auto;
+}
+
+main.texto>p.especial{
+    color: #656ddd;
+}
+
+main.texto>p.referencia{
+    font-family: Segoe UI Italic, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
